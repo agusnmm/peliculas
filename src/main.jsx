@@ -6,6 +6,7 @@ import { createBrowserRouter,RouterProvider} from "react-router-dom";
 import Home from './home/Home.jsx'
 import Movies from './movies/movies.jsx';
 import DetailMovie from './movies/detailMovie/DetailMovie.jsx';
+import Footer from './footer/footer';
 
 const router = createBrowserRouter([
   {
@@ -43,5 +44,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router}/>
+    <Footer />
   </React.StrictMode>,
 )
