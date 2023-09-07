@@ -42,7 +42,7 @@ export default function Movies(props) {
   } else {
     return (
         <>
-        <h1 className="titulo">Welcome {data.genero}</h1>
+        <h1 className="titulo">Categoria: {data.genero}</h1>
 
 
         
